@@ -1,0 +1,17 @@
+User-agent: *
+Allow: /
+Allow: /products
+Allow: /rooms
+Allow: /contact
+Disallow: /admin
+Disallow: /api
+Disallow: /*.json$
+Disallow: /*?*
+Crawl-delay: 0
+
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 0
+
+Sitemap: https://damyat.com/sitemap.xml
+Sitemap: https://damyat.com/sitemap-products.xml
